@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Yes2Life">
         <activity
+            android:name=".Doctors_search"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
