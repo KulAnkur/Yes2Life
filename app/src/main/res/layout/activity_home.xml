@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+  <Button
+      android:id="@+id/listDoctors"
+      android:layout_width="300dp"
+      android:layout_height="50dp"
+      android:layout_marginTop="36dp"
+      android:background="@drawable/background"
+      android:gravity="bottom|center"
+      android:paddingBottom="8dp"
+      android:text="Doctors"
+      android:textAllCaps="false"
+      android:textColor="#FFFFFF"
+      android:textSize="16sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.495"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/btnappoint" />
+
+  <Button
+      android:id="@+id/Medicine"
+      android:layout_width="300dp"
+      android:layout_height="50dp"
+      android:layout_marginTop="36dp"
+      android:background="@drawable/background"
+      android:gravity="bottom|center"
+      android:paddingBottom="8dp"
+      android:text="Medicine"
+      android:textAllCaps="false"
+      android:textColor="#FFFFFF"
+      android:textSize="14sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.495"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/profile" />
+
+  <Button
+      android:id="@+id/btnappoint"
+      android:layout_width="300dp"
+      android:layout_height="50dp"
+      android:layout_marginTop="76dp"
+      android:background="@drawable/background"
+      android:gravity="bottom|center"
+      android:paddingBottom="8dp"
+      android:text="Appointements"
+      android:textAllCaps="false"
+      android:textColor="#FFFFFF"
+      android:textSize="16sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.495"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/view" />
+
+  <Button
+      android:id="@+id/profile"
+      android:layout_width="300dp"
+      android:layout_height="50dp"
+      android:layout_marginTop="28dp"
+      android:background="@drawable/background"
+      android:gravity="bottom|center"
+      android:paddingBottom="8dp"
+      android:text="Profile"
+      android:textAllCaps="false"
+      android:textColor="#FFFFFF"
+      android:textSize="16sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.495"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/listDoctors" />
+
+  <LinearLayout
+      android:id="@+id/view"
+      android:layout_width="0dp"
+      android:layout_height="215dp"
+      android:background="@drawable/background"
+      android:elevation="6dp"
+      android:gravity="center"
+      android:orientation="vertical"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <TextView
+          android:id="@+id/home_text"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentBottom="true"
+          android:layout_marginStart="155dp"
+          android:layout_marginLeft="155dp"
+          android:layout_marginBottom="156dp"
+          android:gravity="center"
+          android:text="Home"
+          android:textColor="#ffffff"
+          android:textSize="32sp" />
+
+      <TextView
+          android:id="@+id/doctorName"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentBottom="true"
+          android:layout_marginStart="81dp"
+          android:layout_marginLeft="106dp"
+          android:layout_marginBottom="79dp"
+          android:text="Welcome to Yes2Life"
+          android:textColor="#ffffff"
+          android:textSize="26sp" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentBottom="true"
+          android:layout_marginStart="105dp"
+          android:layout_marginLeft="105dp"
+          android:layout_marginBottom="55dp"
+          android:text="How we can help you today?"
+          android:textColor="#ffffff"
+          android:textSize="16sp" />
+
+    </RelativeLayout>
+
+  </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

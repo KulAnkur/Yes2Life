@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         TextView username = (TextView) findViewById(R.id.username);
         TextView password = (TextView) findViewById(R.id.password);
+        TextView signup = (TextView) findViewById(R.id.Signup);
 
         MaterialButton loginbtn = (MaterialButton) findViewById(R.id.loginbtn);
 
@@ -30,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if(username.getText().toString().equals("admin") && password.getText().toString().equals("admin")) {
                     Toast.makeText(MainActivity.this, "Login Success", Toast.LENGTH_SHORT).show();
-                    openDoctorsearch();
+                    openHome();
 
                 }else
                     Toast.makeText(MainActivity.this, "Login Fail", Toast.LENGTH_SHORT).show();
@@ -38,9 +39,22 @@ public class MainActivity extends AppCompatActivity {
                 }
 
         });
+
+        signup.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openSignup();
+            }
+        }));
     }
-    public void openDoctorsearch(){
-        Intent intent = new Intent(this, Doctors_search.class);
+
+    private void openSignup() {
+        Intent intent = new Intent(this, Register_main.class);
+        startActivity(intent);
+    }
+
+    public void openHome(){
+        Intent intent = new Intent(this, HomeAct.class);
         startActivity(intent);
     }
 }

@@ -3,331 +3,140 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
 
 
-    <EditText
-        android:id="@+id/searchEditText"
-        android:layout_width="353dp"
-        android:layout_height="48dp"
-        android:layout_gravity="center"
-        android:hint="Search : "
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.275"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.173" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="65dp"
-        android:layout_height="39dp"
-        android:width="40dp"
-        android:height="50dp"
-        android:text="Hello"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.05" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="92dp"
-        android:layout_height="30dp"
-        android:text="Aayushi"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.294"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.062" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="18dp"
-        android:layout_marginTop="29dp"
-        android:layout_marginEnd="183dp"
-        android:layout_marginBottom="50dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:minHeight="48dp"
-        android:text="Services"
-        app:layout_constraintBottom_toTopOf="@+id/imageView6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/searchEditText" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:minHeight="48dp"
-        android:text="Upcoming Appointments"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.019"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.59" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="75dp"
-        android:layout_height="74dp"
-        android:layout_marginStart="14dp"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="9dp"
-        android:layout_marginBottom="34dp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName2"
-        app:layout_constraintEnd_toStartOf="@+id/imageView4"
-        app:layout_constraintStart_toEndOf="@+id/imageView6"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
-        app:srcCompat="@drawable/calendar" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="80dp"
-        android:layout_height="70dp"
-        android:layout_marginStart="9dp"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="38dp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName2"
-        app:layout_constraintEnd_toStartOf="@+id/imageView5"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
-        app:srcCompat="@drawable/pills" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_marginStart="3dp"
-        android:layout_marginTop="129dp"
-        android:layout_marginEnd="47dp"
-        android:layout_marginBottom="366dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView4"
-        app:layout_constraintTop_toBottomOf="@+id/searchEditText"
-        app:srcCompat="@drawable/virus" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-
-        android:layout_width="100dp"
-        android:layout_height="76dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="34dp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName2"
-        app:layout_constraintEnd_toStartOf="@+id/imageView3"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
-        app:srcCompat="@drawable/kit" />
-    <!-- Rectangle 10 -->
-    <!-- Rectangle 12 -->
-
-    <View
-        android:id="@+id/rectangle_1"
-        android:layout_width="282dp"
-        android:layout_height="120.73dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
+    <Button
+        android:id="@+id/listPatients"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="36dp"
         android:background="@drawable/background"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:gravity="bottom|center"
+        android:paddingBottom="8dp"
+        android:text="Doctors"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.806" />
+        app:layout_constraintTop_toBottomOf="@+id/btnRequst" />
 
-    <View
-        android:id="@+id/rectangle_2"
-        android:layout_width="71.46dp"
-        android:layout_height="99.03dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:background="@drawable/rectangle_1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.094"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.802" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="9.30 AM"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.407"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.712" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Dr. Ojasvi Mehta"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.407"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.761" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Depression"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.407"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.814" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="37dp"
-        android:layout_height="39dp"
-        android:width="20dp"
-        android:height="30dp"
-        android:text="12"
-
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.114"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.738" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="39dp"
-        android:layout_height="32dp"
-        android:text="Tue"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.113"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.787" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="58dp"
+    <Button
+        android:id="@+id/appointement"
+        android:layout_width="300dp"
         android:layout_height="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/background"
+        android:gravity="bottom|center"
+        android:paddingBottom="8dp"
+        android:text="Medicine"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.948"
-        app:srcCompat="@drawable/home" />
+        app:layout_constraintTop_toBottomOf="@+id/profile" />
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="48dp"
+    <Button
+        android:id="@+id/btnRequst"
+        android:layout_width="300dp"
         android:layout_height="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/background"
+        android:gravity="bottom|center"
+        android:paddingBottom="8dp"
+        android:text="Appointements"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.325"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.948"
-        app:srcCompat="@drawable/schedlue" />
+        app:layout_constraintTop_toBottomOf="@+id/view" />
 
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="41dp"
-        android:layout_height="38dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/background"
+        android:gravity="bottom|center"
+        android:paddingBottom="8dp"
+        android:text="Profile"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.932"
-        app:srcCompat="@drawable/notifications" />
+        app:layout_constraintTop_toBottomOf="@+id/listPatients" />
 
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="41dp"
-        android:layout_height="54dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <LinearLayout
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="215dp"
+        android:background="@drawable/background"
+        android:elevation="6dp"
+        android:gravity="center"
+        android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.635"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.948"
-        app:srcCompat="@drawable/report" />
+        app:layout_constraintTop_toTopOf="parent">
 
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Home"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.992" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Schedule"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.334"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.992" />
+            <TextView
+                android:id="@+id/home_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="155dp"
+                android:layout_marginLeft="155dp"
+                android:layout_marginBottom="156dp"
+                android:gravity="center"
+                android:text="Home"
+                android:textColor="#ffffff"
+                android:textSize="32sp" />
 
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Report"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.634"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.991" />
+            <TextView
+                android:id="@+id/doctorName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="81dp"
+                android:layout_marginLeft="106dp"
+                android:layout_marginBottom="79dp"
+                android:text="Welcome to Yes2Life"
+                android:textColor="#ffffff"
+                android:textSize="26sp" />
 
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Notifications"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.951"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.991" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="105dp"
+                android:layout_marginLeft="105dp"
+                android:layout_marginBottom="55dp"
+                android:text="How we can help you today?"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

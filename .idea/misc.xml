@@ -3,11 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Apps/AndroidProjects/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1635" />
         <entry key="..\:/Apps/AndroidProjects/app/src/main/res/layout/activity_doctors_search.xml" value="0.213768115942029" />
+        <entry key="..\:/Apps/AndroidProjects/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
         <entry key="..\:/Apps/AndroidProjects/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Apps/AndroidProjects/app/src/main/res/layout/activity_register_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Apps/AndroidProjects/app/src/main/res/layout/doctors.xml" value="0.264" />
-        <entry key="..\:/Apps/AndroidProjects/app/src/main/res/layout/home.xml" value="0.152" />
+        <entry key="..\:/Apps/AndroidProjects/app/src/main/res/layout/home.xml" value="0.264" />
         <entry key="..\:/Apps/AndroidProjects/app/src/main/res/layout/list_item.xml" value="0.12360688956433637" />
         <entry key="..\:/Users/Aditya/AndroidStudioProjects/Yes2Life/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.548" />
         <entry key="..\:/Users/Aditya/AndroidStudioProjects/Yes2Life/app/src/main/res/drawable/ic_baseline_security_24.xml" value="0.548" />
