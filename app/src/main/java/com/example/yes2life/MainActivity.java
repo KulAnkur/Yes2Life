@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 openSignup();
             }
         }));
+
     }
 
     private void openSignup() {

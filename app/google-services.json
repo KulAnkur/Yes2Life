@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "287765150167",
+    "project_id": "yes2life-85a0d",
+    "storage_bucket": "yes2life-85a0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287765150167:android:bd02900151e51078e73392",
+        "android_client_info": {
+          "package_name": "com.example.yes2life"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287765150167-365b1gqpbe5pth2347f002rfn6ko2nb5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-VxOwWq5dA9yp6wt2Dy8EqdqdwUk6MkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287765150167-365b1gqpbe5pth2347f002rfn6ko2nb5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
